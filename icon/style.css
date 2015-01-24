@@ -1,0 +1,46 @@
+/*
+ * Basic Style 
+ */
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/*
+ * In different state
+ */
+
+.uy-primary-font{
+	color: #337ab7;
+}
+
+.uy-success-font{
+	color: #5cb85c;
+}
+
+.uy-info-font{
+	color: #5bc0de;
+}
+
+.uy-warning-font{
+	color: #f0ad4e;
+}
+
+.uy-danger-font{
+	color: #d9534f;
+}

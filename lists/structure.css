@@ -1,0 +1,77 @@
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-bottom: 0;
+}
+/*
+ * List Style
+ */
+.uy-list-style-none {
+  padding-left: 0;
+}
+.uy-inline-list {
+  padding-left: 0;
+  margin-left: -5px;
+}
+.uy-inline-list > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+/*
+ * Description List Style
+ */
+dl {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+dd {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  .uy-horizontal-dl dt {
+    float: left;
+    width: 160px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .uy-horizontal-dl dd {
+    margin-left: 180px;
+  }
+}
+/*
+ * Group List
+ */
+.uy-group-list {
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+.uy-group-list>a, .uy-group-list>li {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+}
+/*
+ * Radius
+ */
+.uy-group-list-radius>a:first-child,
+.uy-group-list-radius>li:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.uy-group-list-radius>a:last-child,
+.uy-group-list-radius>li:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}

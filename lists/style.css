@@ -1,0 +1,119 @@
+/*
+ * Genarel Active
+ */
+.uy-list-style-none, .uy-inline-list {
+  list-style: none;
+}
+.uy-group-list.active>a,
+.uy-group-list.active>li {
+  z-index: 2;
+  color: #fff;
+  background-color: #337ab7;
+  /*border-color: #337ab7;*/
+  border-color: #FFFFFF;
+}
+dt,dd {
+  line-height: 1.5;
+}
+dt {
+  font-weight: bold;
+}
+.uy-group-list>a, .uy-group-list>li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #555;
+  text-decoration: none;
+}
+.uy-group-list>a:hover,
+.uy-group-list>a:focus {
+  color: #555;
+  background-color: #f5f5f5;
+}
+.uy-group-list.disabled>a,
+.uy-group-list.disabled>li {
+  color: #777;
+  cursor: not-allowed;
+  background-color: #eee;
+}
+/*
+ * Success state
+ */
+.uy-group-list-success>a,
+.uy-group-list-success>li {
+  color: #3c763d;
+  background-color: #dff0d8;
+}
+.uy-group-list-success>a:hover,
+.uy-group-list-success>a:focus {
+  color: #3c763d;
+  background-color: #d0e9c6;
+}
+.uy-group-list-success.active>a,
+.uy-group-list-success.active>a:hover,
+.uy-group-list-success.active>a:focus {
+  color: #fff;
+  background-color: #3c763d;
+  border-color: #3c763d;
+}
+/*
+ * info state
+ */
+.uy-group-list-info>a,
+.uy-group-list-info>li{
+  color: #31708f;
+  background-color: #d9edf7;
+}
+.uy-group-list-info>a:hover,
+.uy-group-list-info>a:focus {
+  color: #31708f;
+  background-color: #c4e3f3;
+}
+.uy-group-list-info.active>a,
+.uy-group-list-info.active>a:hover,
+.uy-group-list-info.active>a:focus {
+  color: #fff;
+  background-color: #31708f;
+  border-color: #31708f;
+ border-color: #FFFFFF;
+}
+/*
+ * warning state
+ */
+.uy-group-list-warning>a,
+.uy-group-list-warning>li {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+}
+.uy-group-list-warning>a:hover,
+.uy-group-list-warning>a:focus {
+  color: #8a6d3b;
+  background-color: #faf2cc;
+}
+.uy-group-list-warning.active>a,
+.uy-group-list-warning.active>a:hover,
+.uy-group-list-warning.active>a:focus {
+  color: #fff;
+  background-color: #8a6d3b;
+  border-color: #8a6d3b;
+ border-color: #FFFFFF;
+}
+/*
+ * Danger State
+ */
+.uy-group-list-danger>a,
+.uy-group-list-danger>li{
+  color: #a94442;
+  background-color: #f2dede;
+}
+.uy-group-list-danger>a:hover,
+.uy-group-list-danger>a:focus {
+  color: #a94442;
+  background-color: #ebcccc;
+}
+.uy-group-list-danger.active>a,
+.uy-group-list-danger.active>a:hover,
+.uy-group-list-danger.active>a:focus {
+  color: #fff;
+  background-color: #a94442;
+  border-color: #a94442;
+}

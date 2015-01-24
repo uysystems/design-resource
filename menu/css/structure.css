@@ -1,0 +1,51 @@
+.uy-nav-horizontal ul {
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    float:left;
+    width:100%;    
+}
+
+.uy-nav-horizontal ul a{
+	display: block;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.uy-nav-horizontal ul a img{
+	width: 15px;
+	height:15px;
+}
+
+.uy-nav-horizontal ul li {
+    position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+.uy-nav-horizontal ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	padding:0;
+}
+
+.uy-nav-horizontal ul ul li{
+	float:none;
+	/*width:200px*/
+}
+
+.uy-nav-horizontal ul ul a{
+	padding:10px 20px;
+}
+
+.uy-nav-horizontal ul ul ul{
+	top:0;
+	left:100%;
+}
+
+.uy-nav-horizontal ul li:hover > ul{
+	display:block;
+}
