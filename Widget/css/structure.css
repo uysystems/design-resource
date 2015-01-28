@@ -1,0 +1,10 @@
+.uy-widget{
+	height: auto;
+    width: 100%;
+}
+.uy-widget-heading h3{
+    padding: 10px 0 10px 10px;
+}
+.uy-widget-content, .uy-widget-footer{
+	padding: 10px;
+}

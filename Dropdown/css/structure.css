@@ -1,0 +1,27 @@
+a{
+   text-decoration: none;
+}
+
+.uy-dropdown{
+  display: none;
+}
+
+ul.uy-dropdown{
+	list-style: none;
+}
+
+.uy-dropdown:target{
+  display:block;
+}
+
+.caret {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid;
+    display: inline-block;
+    height: 0;
+    margin-left: 7px;
+    vertical-align: middle;
+    width: 0;
+}
+

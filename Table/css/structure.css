@@ -1,0 +1,165 @@
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 0;
+  min-width:150px;
+}
+caption {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+}
+th {
+  text-align: left;
+}
+.uy-table {
+  width: 100%;
+  max-width: 100%;
+}
+.uy-table > thead > tr > th,
+.uy-table > tbody > tr > th,
+.uy-table > tfoot > tr > th,
+.uy-table > thead > tr > td,
+.uy-table > tbody > tr > td,
+.uy-table > tfoot > tr > td {
+  padding: 8px;
+  vertical-align: top;
+}
+.uy-table > thead > tr > th {
+  vertical-align: bottom;
+}
+.uy-table > caption + thead > tr:first-child > th,
+.uy-table > colgroup + thead > tr:first-child > th,
+.uy-table > thead:first-child > tr:first-child > th,
+.uy-table > caption + thead > tr:first-child > td,
+.uy-table > colgroup + thead > tr:first-child > td,
+.uy-table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+.uy-table-condensed > thead > tr > th,
+.uy-table-condensed > tbody > tr > th,
+.uy-table-condensed > tfoot > tr > th,
+.uy-table-condensed > thead > tr > td,
+.uy-table-condensed > tbody > tr > td,
+.uy-table-condensed > tfoot > tr > td {
+  padding: 5px;
+}
+table col[class*="col-"] {
+  position: static;
+  display: table-column;
+  float: none;
+}
+table td[class*="col-"],
+table th[class*="col-"] {
+  position: static;
+  display: table-cell;
+  float: none;
+}
+.uy-table > thead > tr > td.active,
+.uy-table > tbody > tr > td.active,
+.uy-table > tfoot > tr > td.active,
+.uy-table > thead > tr > th.active,
+.uy-table > tbody > tr > th.active,
+.uy-table > tfoot > tr > th.active,
+.uy-table > thead > tr.active > td,
+.uy-table > tbody > tr.active > td,
+.uy-table > tfoot > tr.active > td,
+.uy-table > thead > tr.active > th,
+.uy-table > tbody > tr.active > th,
+.uy-table > tfoot > tr.active > th {
+  background-color: #f5f5f5;
+}
+.uy-table-hover > tbody > tr > td.active:hover,
+.uy-table-hover > tbody > tr > th.active:hover,
+.uy-table-hover > tbody > tr.active:hover > td,
+.uy-table-hover > tbody > tr:hover > .active,
+.uy-table-hover > tbody > tr.active:hover > th {
+  background-color: #e8e8e8;
+}
+.uy-table > thead > tr > td.success,
+.uy-table > tbody > tr > td.success,
+.uy-table > tfoot > tr > td.success,
+.uy-table > thead > tr > th.success,
+.uy-table > tbody > tr > th.success,
+.uy-table > tfoot > tr > th.success,
+.uy-table > thead > tr.success > td,
+.uy-table > tbody > tr.success > td,
+.uy-table > tfoot > tr.success > td,
+.uy-table > thead > tr.success > th,
+.uy-table > tbody > tr.success > th,
+.uy-table > tfoot > tr.success > th {
+  background-color: #dff0d8;
+}
+.uy-table-hover > tbody > tr > td.success:hover,
+.uy-table-hover > tbody > tr > th.success:hover,
+.uy-table-hover > tbody > tr.success:hover > td,
+.uy-table-hover > tbody > tr:hover > .success,
+.uy-table-hover > tbody > tr.success:hover > th {
+  background-color: #d0e9c6;
+}
+.uy-table > thead > tr > td.info,
+.uy-table > tbody > tr > td.info,
+.uy-table > tfoot > tr > td.info,
+.uy-table > thead > tr > th.info,
+.uy-table > tbody > tr > th.info,
+.uy-table > tfoot > tr > th.info,
+.uy-table > thead > tr.info > td,
+.uy-table > tbody > tr.info > td,
+.uy-table > tfoot > tr.info > td,
+.uy-table > thead > tr.info > th,
+.uy-table > tbody > tr.info > th,
+.uy-table > tfoot > tr.info > th {
+  background-color: #d9edf7;
+}
+.uy-table-hover > tbody > tr > td.info:hover,
+.uy-table-hover > tbody > tr > th.info:hover,
+.uy-table-hover > tbody > tr.info:hover > td,
+.uy-table-hover > tbody > tr:hover > .info,
+.uy-table-hover > tbody > tr.info:hover > th {
+  background-color: #c4e3f3;
+}
+.uy-table > thead > tr > td.warning,
+.uy-table > tbody > tr > td.warning,
+.uy-table > tfoot > tr > td.warning,
+.uy-table > thead > tr > th.warning,
+.uy-table > tbody > tr > th.warning,
+.uy-table > tfoot > tr > th.warning,
+.uy-table > thead > tr.warning > td,
+.uy-table > tbody > tr.warning > td,
+.uy-table > tfoot > tr.warning > td,
+.uy-table > thead > tr.warning > th,
+.uy-table > tbody > tr.warning > th,
+.uy-table > tfoot > tr.warning > th {
+  background-color: #fcf8e3;
+}
+.uy-table-hover > tbody > tr > td.warning:hover,
+.uy-table-hover > tbody > tr > th.warning:hover,
+.uy-table-hover > tbody > tr.warning:hover > td,
+.uy-table-hover > tbody > tr:hover > .warning,
+.uy-table-hover > tbody > tr.warning:hover > th {
+  background-color: #faf2cc;
+}
+.uy-table > thead > tr > td.danger,
+.uy-table > tbody > tr > td.danger,
+.uy-table > tfoot > tr > td.danger,
+.uy-table > thead > tr > th.danger,
+.uy-table > tbody > tr > th.danger,
+.uy-table > tfoot > tr > th.danger,
+.uy-table > thead > tr.danger > td,
+.uy-table > tbody > tr.danger > td,
+.uy-table > tfoot > tr.danger > td,
+.uy-table > thead > tr.danger > th,
+.uy-table > tbody > tr.danger > th,
+.uy-table > tfoot > tr.danger > th {
+  background-color: #f2dede;
+}
+.uy-table-hover > tbody > tr > td.danger:hover,
+.uy-table-hover > tbody > tr > th.danger:hover,
+.uy-table-hover > tbody > tr.danger:hover > td,
+.uy-table-hover > tbody > tr:hover > .danger,
+.uy-table-hover > tbody > tr.danger:hover > th {
+  background-color: #ebcccc;
+}

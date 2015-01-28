@@ -1,0 +1,343 @@
+/* Basic Style */
+
+.uy-button {
+  font-weight: normal;
+  line-height: 1.5;
+  border: 1px solid transparent;
+  font-family:inherit;
+}
+a.uy-button, a .uy-button,
+div.uy-button, div .uy-button{
+	text-decoration: none;
+}
+.uy-button:focus,
+.uy-button:active:focus,
+.uy-button.active:focus,
+.uy-button.focus,
+.uy-button:active.focus,
+.uy-button.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.uy-button:hover,
+.uy-button:focus,
+.uy-button.focus {
+  color: #333;
+  text-decoration: none;
+}
+.uy-button:active,
+.uy-button.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.uy-button.disabled, .uy-button[disabled],
+fieldset[disabled] .uy-button {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/*Button Size*/
+
+.uy-button-2x{
+  font-size: 18px;
+  line-height: 1.33;
+}
+.uy-button-3x{
+  font-size: 22px;
+  line-height: 1.5;
+}
+.uy-button-4x{
+  font-size: 26px;
+  line-height: 1.7;
+}
+
+/*Default Button*/
+
+.uy-button-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.uy-button-default:hover,
+.uy-button-default:focus,
+.uy-button-default.focus,
+.uy-button-default:active,
+.uy-button-default.active{
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.uy-button-default:active,
+.uy-button-default.active{
+  background-image: none;
+}
+.uy-button-default.disabled,
+.uy-button-default[disabled],
+fieldset[disabled] .uy-button-default,
+.uy-button-default.disabled:hover,
+.uy-button-default[disabled]:hover,
+fieldset[disabled] .uy-button-default:hover,
+.uy-button-default.disabled:focus,
+.uy-button-default[disabled]:focus,
+fieldset[disabled] .uy-button-default:focus,
+.uy-button-default.disabled.focus,
+.uy-button-default[disabled].focus,
+fieldset[disabled] .uy-button-default.focus,
+.uy-button-default.disabled:active,
+.uy-button-default[disabled]:active,
+fieldset[disabled] .uy-button-default:active,
+.uy-button-default.disabled.active,
+.uy-button-default[disabled].active,
+fieldset[disabled] .uy-button-default.active {
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+/*Primary Button*/
+
+.uy-button-theme_name-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.uy-button-theme_name-primary:hover,
+.uy-button-theme_name-primary:focus,
+.uy-button-theme_name-primary.focus,
+.uy-button-theme_name-primary:active,
+.uy-button-theme_name-primary.active {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.uy-button-theme_name-primary:active,
+.uy-button-theme_name-primary.active {
+  background-image: none;
+}
+.uy-button-theme_name-primary.disabled,
+.uy-button-theme_name-primary[disabled],
+fieldset[disabled] .uy-button-theme_name-primary,
+.uy-button-theme_name-primary.disabled:hover,
+.uy-button-theme_name-primary[disabled]:hover,
+fieldset[disabled] .uy-button-theme_name-primary:hover,
+.uy-button-theme_name-primary.disabled:focus,
+.uy-button-theme_name-primary[disabled]:focus,
+fieldset[disabled] .uy-button-theme_name-primary:focus,
+.uy-button-theme_name-primary.disabled.focus,
+.uy-button-theme_name-primary[disabled].focus,
+fieldset[disabled] .uy-button-theme_name-primary.focus,
+.uy-button-theme_name-primary.disabled:active,
+.uy-button-theme_name-primary[disabled]:active,
+fieldset[disabled] .uy-button-theme_name-primary:active,
+.uy-button-theme_name-primary.disabled.active,
+.uy-button-theme_name-primary[disabled].active,
+fieldset[disabled] .uy-button-theme_name-primary.active {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+/*success Button*/
+
+.uy-button-theme_name-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.uy-button-theme_name-success:hover,
+.uy-button-theme_name-success:focus,
+.uy-button-theme_name-success.focus,
+.uy-button-theme_name-success:active,
+.uy-button-theme_name-success.active {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.uy-button-theme_name-success:active,
+.uy-button-theme_name-success.active {
+  background-image: none;
+}
+.uy-button-theme_name-success.disabled,
+.uy-button-theme_name-success[disabled],
+fieldset[disabled] .uy-button-theme_name-success,
+.uy-button-theme_name-success.disabled:hover,
+.uy-button-theme_name-success[disabled]:hover,
+fieldset[disabled] .uy-button-theme_name-success:hover,
+.uy-button-theme_name-success.disabled:focus,
+.uy-button-theme_name-success[disabled]:focus,
+fieldset[disabled] .uy-button-theme_name-success:focus,
+.uy-button-theme_name-success.disabled.focus,
+.uy-button-theme_name-success[disabled].focus,
+fieldset[disabled] .uy-button-theme_name-success.focus,
+.uy-button-theme_name-success.disabled:active,
+.uy-button-theme_name-success[disabled]:active,
+fieldset[disabled] .uy-button-theme_name-success:active,
+.uy-button-theme_name-success.disabled.active,
+.uy-button-theme_name-success[disabled].active,
+fieldset[disabled] .uy-button-theme_name-success.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+/* Inof Button */
+
+.uy-button-theme_name-info {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.uy-button-theme_name-info:hover,
+.uy-button-theme_name-info:focus,
+.uy-button-theme_name-info.focus,
+.uy-button-theme_name-info:active,
+.uy-button-theme_name-info.active {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.uy-button-theme_name-info:active,
+.uy-button-theme_name-info.active{
+  background-image: none;
+}
+.uy-button-theme_name-info.disabled,
+.uy-button-theme_name-info[disabled],
+fieldset[disabled] .uy-button-theme_name-info,
+.uy-button-theme_name-info.disabled:hover,
+.uy-button-theme_name-info[disabled]:hover,
+fieldset[disabled] .uy-button-theme_name-info:hover,
+.uy-button-theme_name-info.disabled:focus,
+.uy-button-theme_name-info[disabled]:focus,
+fieldset[disabled] .uy-button-theme_name-info:focus,
+.uy-button-theme_name-info.disabled.focus,
+.uy-button-theme_name-info[disabled].focus,
+fieldset[disabled] .uy-button-theme_name-info.focus,
+.uy-button-theme_name-info.disabled:active,
+.uy-button-theme_name-info[disabled]:active,
+fieldset[disabled] .uy-button-theme_name-info:active,
+.uy-button-theme_name-info.disabled.active,
+.uy-button-theme_name-info[disabled].active,
+fieldset[disabled] .uy-button-theme_name-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+/* Inof Button */
+
+.uy-button-theme_name-warning {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.uy-button-theme_name-warning:hover,
+.uy-button-theme_name-warning:focus,
+.uy-button-theme_name-warning.focus,
+.uy-button-theme_name-warning:active,
+.uy-button-theme_name-warning.active {
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.uy-button-theme_name-warning:active,
+.uy-button-theme_name-warning.active {
+  background-image: none;
+}
+.uy-button-theme_name-warning.disabled,
+.uy-button-theme_name-warning[disabled],
+fieldset[disabled] .uy-button-theme_name-warning,
+.uy-button-theme_name-warning.disabled:hover,
+.uy-button-theme_name-warning[disabled]:hover,
+fieldset[disabled] .uy-button-theme_name-warning:hover,
+.uy-button-theme_name-warning.disabled:focus,
+.uy-button-theme_name-warning[disabled]:focus,
+fieldset[disabled] .uy-button-theme_name-warning:focus,
+.uy-button-theme_name-warning.disabled.focus,
+.uy-button-theme_name-warning[disabled].focus,
+fieldset[disabled] .uy-button-theme_name-warning.focus,
+.uy-button-theme_name-warning.disabled:active,
+.uy-button-theme_name-warning[disabled]:active,
+fieldset[disabled] .uy-button-theme_name-warning:active,
+.uy-button-theme_name-warning.disabled.active,
+.uy-button-theme_name-warning[disabled].active,
+fieldset[disabled] .uy-button-theme_name-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+/* Inof Button */
+
+.uy-button-theme_name-danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.uy-button-theme_name-danger:hover,
+.uy-button-theme_name-danger:focus,
+.uy-button-theme_name-danger.focus,
+.uy-button-theme_name-danger:active,
+.uy-button-theme_name-danger.active {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.uy-button-theme_name-danger:active,
+.uy-button-theme_name-danger.active {
+  background-image: none;
+}
+.uy-button-theme_name-danger.disabled,
+.uy-button-theme_name-danger[disabled],
+fieldset[disabled] .uy-button-theme_name-danger,
+.uy-button-theme_name-danger.disabled:hover,
+.uy-button-theme_name-danger[disabled]:hover,
+fieldset[disabled] .uy-button-theme_name-danger:hover,
+.uy-button-theme_name-danger.disabled:focus,
+.uy-button-theme_name-danger[disabled]:focus,
+fieldset[disabled] .uy-button-theme_name-danger:focus,
+.uy-button-theme_name-danger.disabled.focus,
+.uy-button-theme_name-danger[disabled].focus,
+fieldset[disabled] .uy-button-theme_name-danger.focus,
+.uy-button-theme_name-danger.disabled:active,
+.uy-button-theme_name-danger[disabled]:active,
+fieldset[disabled] .uy-button-theme_name-danger:active,
+.uy-button-theme_name-danger.disabled.active,
+.uy-button-theme_name-danger[disabled].active,
+fieldset[disabled] .uy-button-theme_name-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+/* Inof Button */
+
+.uy-button-theme_name-link {
+  font-weight: normal;
+  color: #337ab7;
+  border-radius: 0;
+}
+.uy-button-theme_name-link,
+.uy-button-theme_name-link:active,
+.uy-button-theme_name-link.active,
+.uy-button-theme_name-link[disabled],
+fieldset[disabled] .uy-button-theme_name-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.uy-button-theme_name-link,
+.uy-button-theme_name-link:hover,
+.uy-button-theme_name-link:focus,
+.uy-button-theme_name-link:active {
+  border-color: transparent;
+}
+.uy-button-theme_name-link:hover,
+.uy-button-theme_name-link:focus {
+  color: #23527c;
+  text-decoration: underline;
+  background-color: transparent;
+}
+.uy-button-theme_name-link[disabled]:hover,
+fieldset[disabled] .uy-button-theme_name-link:hover,
+.uy-button-theme_name-link[disabled]:focus,
+fieldset[disabled] .uy-button-theme_name-link:focus {
+  color: #777;
+  text-decoration: none;
+}

@@ -9,7 +9,7 @@
 .uy-nav-horizontal ul a{
 	display: block;
     text-align: center;
-    padding: 10px 15px;
+    padding: 6px 30px;
 }
 
 .uy-nav-horizontal ul a img{
@@ -22,6 +22,14 @@
 	float:left;
 	margin:0;
 	padding:0;
+}
+
+.uy-nav-horizontal li{
+    transition: background-color 0.3s ease;
+	-webkit-transition: background-color 0.3s ease;
+	-moz-transition: background-color 0.3s ease;
+	-ms-transition: background-color 0.3s ease;
+	-o-transition: background-color 0.3s ease;
 }
 
 .uy-nav-horizontal ul ul{

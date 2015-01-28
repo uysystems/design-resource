@@ -1,0 +1,13 @@
+.uy-widget{
+	background: #f4f4f4;
+}
+.uy-widget-heading h3{
+	background: #ea6153;
+    border-top: 5px solid #c63e30;
+    color: #fff;
+    font-size: 1.313em;
+    text-transform: uppercase;
+}
+.uy-widget-footer{
+	background: #e8e6e6;
+}

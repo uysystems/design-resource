@@ -1,0 +1,37 @@
+/*
+ * Basic Style
+ */
+.uy-nav-horizontal ul {
+	background-color: #98bf21;
+	list-style:none;
+}
+.uy-nav-horizontal ul a{
+	font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.uy-nav-horizontal li:hover, .uy-nav-horizontal li:active{
+    background-color: #7A991A;
+}
+.uy-nav-horizontal ul ul a{
+	line-height:120%;
+}
+/*
+ * Theme 'a'
+ */
+.uy-nav-horizontal.theme-a ul {
+    background-color: #418bca;
+    font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.uy-nav-horizontal.theme-a li{
+    transition: background-color 0.5s ease;
+	-webkit-transition: background-color 0.5s ease;
+	-moz-transition: background-color 0.5s ease;
+	-ms-transition: background-color 0.5s ease;
+	-o-transition: background-color 0.5s ease;
+}
+.uy-nav-horizontal.theme-a li:hover, 
+.uy-nav-horizontal.theme-a li:active{
+    background-color: #286fac;
+}
+

@@ -1,0 +1,27 @@
+.uy-nav-vertical.theme-a ul {
+    background-color: #418bca;
+    font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.uy-nav-vertical.theme-a li{
+    transition: background-color 0.3s ease;
+	-webkit-transition: background-color 0.3s ease;
+	-moz-transition: background-color 0.3s ease;
+	-ms-transition: background-color 0.3s ease;
+	-o-transition: background-color 0.3s ease;
+}
+
+/*.uy-nav-horizontal.theme-a ul li a:hover, 
+.uy-nav-horizontal.theme-a ul li a:active*/
+.uy-nav-vertical.theme-a li:hover, 
+.uy-nav-vertical.theme-a li:active{
+    background-color: #286fac;
+}
+
+/*.uy-nav-horizontal.theme-a li, .uy-nav-horizontal.theme-a li ul li{
+    transition: all 0.3s ease-out 0s;
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+}*/

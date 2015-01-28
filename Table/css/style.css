@@ -1,0 +1,92 @@
+table {
+  background-color: transparent;
+}
+caption {
+	color: #777;
+}
+.uy-table > thead > tr > th,
+.uy-table > tbody > tr > th,
+.uy-table > tfoot > tr > th,
+.uy-table > thead > tr > td,
+.uy-table > tbody > tr > td,
+.uy-table > tfoot > tr > td {
+	line-height: 1.5;
+	border-top: 1px solid #ddd;
+}
+.uy-table > thead > tr > th {
+	border-bottom: 2px solid #ddd;
+}
+.uy-table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+.uy-table .uy-table {
+  background-color: #fff;
+}
+.uy-table-bordered {
+  border: 1px solid #ddd;
+}
+.uy-table-bordered > thead > tr > th,
+.uy-table-bordered > tbody > tr > th,
+.uy-table-bordered > tfoot > tr > th,
+.uy-table-bordered > thead > tr > td,
+.uy-table-bordered > tbody > tr > td,
+.uy-table-bordered > tfoot > tr > td {
+  border: 1px solid #ddd;
+}
+.uy-table-bordered > thead > tr > th,
+.uy-table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+.uy-table-striped > tbody > tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+.uy-table-hover > tbody > tr:hover {
+  background-color: #f5f5f5;
+}
+/*
+ * Theme
+ */
+
+.uy-table-theme-a > tbody > tr{
+	background-color:#d5eaf0;
+}
+
+.uy-table-theme-a thead{
+	background-color:#66a9bd;
+}
+
+.uy-table-theme-a > thead > tr > th,
+.uy-table-theme-a > tbody > tr > th,
+.uy-table-theme-a > tfoot > tr > th,
+.uy-table-theme-a > thead > tr > td,
+.uy-table-theme-a > tbody > tr > td,
+.uy-table-theme-a > tfoot > tr > td {
+  border-top: 1px solid #FFFFFF;
+}
+.uy-table-theme-a > thead > tr > th {
+  border-bottom: 2px solid #FFFFFF;
+}
+.uy-table-theme-a > tbody + tbody {
+  border-top: 2px solid #FFFFFF;
+}
+.uy-table-theme-a.uy-table-bordered {
+  border: 1px solid #FFFFFF;
+}
+.uy-table-theme-a.uy-table-bordered > thead > tr > th,
+.uy-table-theme-a.uy-table-bordered > tbody > tr > th,
+.uy-table-theme-a.uy-table-bordered > tfoot > tr > th,
+.uy-table-theme-a.uy-table-bordered > thead > tr > td,
+.uy-table-theme-a.uy-table-bordered > tbody > tr > td,
+.uy-table-theme-a.uy-table-bordered > tfoot > tr > td {
+  border: 1px solid #FFFFFF;
+}
+.uy-table-theme-a.uy-table-bordered > thead > tr > th,
+.uy-table-theme-a.uy-table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+.uy-table-theme-a.uy-table-striped > tbody > tr:nth-child(odd) {
+  background-color:#91c5d4;
+}
+.uy-table-theme-a.uy-table-hover > tbody > tr:hover {
+  background-color:#bcd9e1;
+}
